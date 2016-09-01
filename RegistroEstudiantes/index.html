@@ -2,9 +2,41 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Registro de Estudiantes</title>
+    <script src="js/js.js"></script>
     <h1>Registro de Estudiantes</h1>
 </head>
 <body>
-
+    <h4>Ingrese la información solicitada</h4>
+    <table style="width: 40%;">
+        <tr>
+            <td class="auto-style1"><span>Nombres</span></td>
+            <td>
+                <input id="txtNombre" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style1"><span>Apellidos</span></td>
+            <td>
+                <input id="txtApellidos" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style1"><span>Ciudad</span></td>
+            <td>
+                <input id="txtCiudad" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style1"><span>Celular</span></td>
+            <td>
+                <input id="txtCelular" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input id="Button1" type="button" value="Guardar" onclick="mostrarGuardado();" />
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
